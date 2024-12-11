@@ -10,71 +10,63 @@
 </head>
 <body>
     <header class="header">
-    <div class="logo">
-        <img src="src/img/icones/Logo.svg" alt="Logo Cinémagny">
-    </div>
-    <button class="menu-btn">
-        <img src="src/img/icones/Burger Menu.svg" alt="menu">
-    </button>
-    <nav class="menu">
-        <ul>
-            <li><a href="Accueil">Accueil</a></li>
-            <li><a href="Programmation">Programmation</a></li>
-            <li><a href="À l'affiche">À l'affiche</a></li>
-            <li><a href="Nos engagements">Nos engagements</a></li>
-            <li><a href="À propos">À propos</a></li>
-            <li><a href="Billetterie">Billetterie</a></li>
-            <li><a href="Invités d'Honneur">Invités</a></li>
-            <li><a href="Infos pratiques">Infos pratiques</a></li>
-            <li><a href="Contacts">Contacts</a></li>
-        </ul>
-    </nav>
-</header>
+        <div class="header__logo">
+            <img src="src/img/icones/Logo.svg" alt="Logo Cinémagny">
+        </div>
+        <button class="header__menu-btn">
+            <img src="src/img/icones/Burger Menu.svg" alt="menu">
+        </button>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="Accueil">Accueil</a></li>
+                <li class="header__menu-item"><a href="Programmation">Programmation</a></li>
+                <li class="header__menu-item"><a href="À l'affiche">À l'affiche</a></li>
+                <li class="header__menu-item"><a href="Nos engagements">Nos engagements</a></li>
+                <li class="header__menu-item"><a href="À propos">À propos</a></li>
+                <li class="header__menu-item"><a href="Billetterie">Billetterie</a></li>
+                <li class="header__menu-item"><a href="Invités d'Honneur">Invités</a></li>
+                <li class="header__menu-item"><a href="Infos pratiques">Infos pratiques</a></li>
+                <li class="header__menu-item"><a href="Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <section class="hero">
-        <div class="hero-background">
-            <img src="cinema-background.jpg" alt="Salle de cinéma">
+        <div class="hero__background" style="background-image: url(src/img/header--images/bmw90k27swg91.avif);">
+            <img src="" alt="Salle de cinéma">
         </div>
-        <div class="hero-content">
-            <h1>Bienvenue à Cinémagny</h1>
+        <div class="hero__content">
+            <h1 class="hero__title">Bienvenue à Cinémagny</h1> 
         </div>
+        <p class="hero__description">Cinemagny est un festival unique dédié à la célébration du 7ᵉ art à travers le prisme de l’écologie et de l’innovation. Situé à Giromagny, entre montagnes et forêts, le festival vous invite à plonger dans un monde cinématographique riche et diversifié, où films indépendants, documentaires et animations se rencontrent pour éveiller vos sens et vos consciences.
+            Du 12 au 16 novembre 2025, Cinemagny mettra en lumière les talents émergents du cinéma indépendant, tout en rendant hommage aux figures emblématiques du cinéma engagé. Des avant-premières exclusives, des rétrospectives, et des rencontres avec des réalisateurs passionnés feront de cet événement un moment incontournable pour les cinéphiles, les professionnels de l’industrie, et le grand public.</p>
     </section>
 
-    <p>Cinemagny est un festival unique dédié à la célébration du 7ᵉ art à travers le prisme de l’écologie et de l’innovation. Situé à Giromagny, entre montagnes et forêts, le festival vous invite à plonger dans un monde cinématographique riche et diversifié, où films indépendants, documentaires et animations se rencontrent pour éveiller vos sens et vos consciences.
-        Du 12 au 16 novembre 2025, Cinemagny mettra en lumière les talents émergents du cinéma indépendant, tout en rendant hommage aux figures emblématiques du cinéma engagé. Des avant-premières exclusives, des rétrospectives, et des rencontres avec des réalisateurs passionnés feront de cet événement un moment incontournable pour les cinéphiles, les professionnels de l’industrie, et le grand public.</p>
-
-    <section class="carousel" id="carousel">
-
+    <section class="carousel carousel--events">
         <h2 class="carousel__title">Les événements</h2>
         <div class="carousel__container" aria-live="polite">
-            <div class="card" style="background-image: url('/src/img/carousel--accueil/stage-lights-backdrop-with-deep-blue-tones-creating-cool-immersive-performance-environment.avif');">
-                <div>
-                    <h3>Avant-premières exclusives</h3>
-                    <p>Découvrez des films inédits réalisés par de nouveaux talents du cinéma indépendant.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/stage-lights-backdrop-with-deep-blue-tones-creating-cool-immersive-performance-environment.avif');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Avant-premières exclusives</h3>
+                    <p class="carousel__card-description">Découvrez des films inédits réalisés par de nouveaux talents du cinéma indépendant.</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('/src/img/carousel--accueil/mysterious-figure-blue-lit-room-standing-alone-symbolizing-solitude-introspection-sear.avif');">
-                <div>
-                    <h3>Rétrospectives et hommages</h3>
-                    <p>Revivez des moments clés du cinéma avec des projections spéciales dédiées aux figures emblématiques du 7ᵉ art.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/mysterious-figure-blue-lit-room-standing-alone-introspection-sear.avif');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Rétrospectives et hommages</h3>
+                    <p class="carousel__card-description">Revivez des moments clés du cinéma avec des projections spéciales dédiées aux figures emblématiques du 7ᵉ art.</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('/src/img/carousel--accueil/diversity-people-seminar-learning-cityscape-concept.avif');">
-                <div>
-                    <h3>Ateliers de conférences</h3>
-                    <p>Explorez les coulisses du cinéma à travers des ateliers interactifs et des conférences.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/diversity-people-seminar-learning-cityscape-concept.avif');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Ateliers de conférences</h3>
+                    <p class="carousel__card-description">Explorez les coulisses du cinéma à travers des ateliers interactifs et des conférences.</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('/src/img/carousel--accueil/sunny-sky-through-lush-green-tree-canopy.avif');">
-                <div>
-                    <h3>Projections en plein air</h3>
-                    <p>Profitez de projections en plein air dans des lieux emblématiques de Giromagny.</p>
-                </div>
-            </div>
-            <div class="card" style="background-image: url('/src/img/carousel--accueil/blue-light-portrait-background.avif');">
-                <div>
-                    <h3>Rencontres avec les réalisateurs</h3>
-                    <p>Participez à des échanges privilégiés avec des réalisateurs et découvrez leurs univers créatifs.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/sunny-sky-through-lush-green-tree-canopy.avif');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Projections en plein air</h3>
+                    <p class="carousel__card-description">Profitez de projections en plein air dans des lieux emblématiques de Giromagny.</p>
                 </div>
             </div>
         </div>
@@ -85,29 +77,22 @@
             <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
               <img src="src/img/icones/Vector.svg" alt="fleche droite" />
             </button>
-          </div>
+        </div>
     </section>
 
-    <section class="carousel" id="carousel">
-
+    <section class="carousel carousel--partners">
         <h2 class="carousel__title">Nos partenaires</h2>
         <div class="carousel__container" aria-live="polite">
-            <div class="card" style="background-image: url('/src/img/cards/low-angle-view-glass-building-against-sky.jpg');">
-                <div>
-                    <h3>Mairie de Giromagny</h3>
-                    <p>La mairie de Gyromagny soutient activement la vie locale en promouvant culture, écologie et initiatives citoyennes, tout en valorisant le patrimoine de la commune.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/cards/low-angle-view-glass-building-against-sky.jpg');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Mairie de Giromagny</h3>
+                    <p class="carousel__card-description">La mairie de Gyromagny soutient activement la vie locale en promouvant culture, écologie et initiatives citoyennes, tout en valorisant le patrimoine de la commune.</p>
                 </div>
             </div>
-            <div class="card" style="background-image: url('/src/img/cards/19505.jpg');">
-                <div>
-                    <h3>Le cinéma Pathé</h3>
-                    <p>Le cinéma Pathé offre une expérience immersive, alliant technologies modernes et programmation variée pour satisfaire tous les publics.</p>
-                </div>
-            </div>
-            <div class="card" style="background-image: url('/src/img/cards/from_rjt_9.jpg');">
-                <div>
-                    <h3>La Fnac</h3>
-                    <p>La Fnac propose une large sélection de produits culturels et technologiques, combinée à des services experts pour tous les passionnés.</p>
+            <div class="carousel__card" style="background-image: url('/src/img/cards/19505.jpg');">
+                <div class="carousel__content">
+                    <h3 class="carousel__card-title">Le cinéma Pathé</h3>
+                    <p class="carousel__card-description">Le cinéma Pathé offre une expérience immersive, alliant technologies modernes et programmation variée pour satisfaire tous les publics.</p>
                 </div>
             </div>
         </div>
@@ -118,31 +103,29 @@
             <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
               <img src="src/img/icones/Vector.svg" alt="fleche droite" />
             </button>
-          </div>
+        </div>
     </section>
-    <img src="src/img/icones/billetterie.svg" alt="achetez vos billets">
-    
 
     <footer class="footer">
-        <div class="footer-content">
-            <div class="menu">
-                <h3>MENU</h3>
-                <ul>
-                    <li>Programmation</li>
-                    <li>À l'affiche</li>
-                    <li>Nos engagements</li>
-                    <li>À propos</li>
+        <div class="footer__content">
+            <div class="footer__menu">
+                <h3 class="footer__menu-title">MENU</h3>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a href="#">Programmation</a></li>
+                    <li class="footer__menu-item"><a href="#">À l'affiche</a></li>
+                    <li class="footer__menu-item"><a href="#">Nos engagements</a></li>
+                    <li class="footer__menu-item"><a href="#">À propos</a></li>
                 </ul>
             </div>
-            <div class="contact">
-                <h3>CONTACT</h3>
-                <p>Château de la Rosemontoise</p>
-                <p>3 Rue de la Planche</p>
-                <p>90200 Giromagny</p>
+            <div class="footer__contact">
+                <h3 class="footer__contact-title">CONTACT</h3>
+                <p class="footer__contact-detail">Château de la Rosemontoise</p>
+                <p class="footer__contact-detail">3 Rue de la Planche</p>
+                <p class="footer__contact-detail">90200 Giromagny</p>
             </div>
-            <div class="social">
-                <h3>NOUS SUIVRE</h3>
-                <div class="icons">
+            <div class="footer__social">
+                <h3 class="footer__social-title">NOUS SUIVRE</h3>
+                <div class="footer__social-icons">
                     <i class="fab fa-facebook"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-twitter"></i>

@@ -5,17 +5,36 @@
     padding: 10px 20px;
     background-color: #003366;
     color: #fff;
-  }
-  
-  .header .logo img {
-    max-height: 50px;
-  }
-  
-  .header .menu-icon {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-  }
+}
 
+.header__logo img {
+    height: 50px;
+}
+
+.header__menu-btn img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.header__menu {
+    display: none;
+}
+
+.header__menu.open {
+    display: block;
+}
+
+.header__menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.header__menu-item a:hover {
+    text-decoration: underline;
+}

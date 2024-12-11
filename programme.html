@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programmation</title>
+    <title>Cinémagny</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="/src/js/page.js"></script>
 </head>
 <body>
-    
-</body>
-</html>
+    <header class="header">
+    <div class="logo">
+        <img src="src/img/icones/Logo.svg" alt="Logo Cinémagny">
+    </div>
+    <button class="menu-btn">
+        <img src="src/img/icones/Burger Menu.svg" alt="menu">
+    </button>
+    <nav class="menu">
+        <ul>
+            <li><a href="Accueil">Accueil</a></li>
+            <li><a href="Programmation">Programmation</a></li>
+            <li><a href="À l'affiche">À l'affiche</a></li>
+            <li><a href="Nos engagements">Nos engagements</a></li>
+            <li><a href="À propos">À propos</a></li>
+            <li><a href="Billetterie">Billetterie</a></li>
+            <li><a href="Invités d'Honneur">Invités</a></li>
+            <li><a href="Infos pratiques">Infos pratiques</a></li>
+            <li><a href="Contacts">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1 class="hero__title">Programmation</h1>
+    <p class="hero__description">Découvrez la diversité de la programmation de Cinémagny...</p>
+</section>
+
+<section class="categories">
+    <div class="categories__item">
+        <img src="src/img/cards/longs-metrages.jpg" alt="Longs métrages" class="categories__image">
+        <h2 class="categories__title">Longs métrages</h2>
+        <p class="categories__details">Jeudi 13 Novembre, 20h<br>Samedi 15 Novembre, 18h</p>
+    </div>
+    <div class="categories__item">
+        <img src="src/img/cards/courts-metrages.jpg" alt="Courts métrages" class="categories__image">
+        <h2 class="categories__title">Courts métrages</h2>
+        <p class="categories__details">Mercredi 12 Novembre, 20h<br>Samedi 15 Novembre, 14h</p>
+    </div>
+    <div class="categories__item">
+        <img src="src/img/cards/documentaires.jpg" alt="Documentaires" class="categories__image">
+        <h2 class="categories__title">Documentaires</h2>
+        <p class="categories__details">Jeudi 13 Novembre, 18h<br>Vendredi 14 Novembre, 14h</p>
+    </div>
+    <div class="categories__item">
+        <img src="src/img/cards/films-animation.jpg" alt="Films d'animation" class="categories__image">
+        <h2 class="categories__title">Films d'animation</h2>
+        <p class="categories__details">Vendredi 14 Novembre, 10h30</p>
+    </div>
+</section>
+
+<section class="extras">
+    <h2 class="extras__title">Autres temps forts de Cinémagny 2025</h2>
+    <article class="extras__item">
+        <h3 class="extras__subtitle">Ateliers et Masterclasses</h3>
+        <p class="extras__description">Tout au long du festival, participez à des ateliers animés par des professionnels du cinéma...</p>
+    </article>
+    <article class="extras__item">
+        <h3 class="extras__subtitle">Rencontres et débats</h3>
+        <p class="extras__description">Chaque jour, nous organisons des rencontres avec les réalisateurs et les équipes des films présentés...</p>
+    </article>
+    <article class="extras__item">
+        <h3 class="extras__subtitle">Projections en plein air</h3>
+        <p class="extras__description">Le samedi soir, venez vivre une expérience unique avec une projection en plein air dans un cadre naturel exceptionnel...</p>
+    </article>
+    <article class="extras__item">
+        <h3 class="extras__subtitle">Cérémonie de clôture</h3>
+        <p class="extras__description">Le dimanche 16 novembre 2025, clôturez en beauté avec la cérémonie de remise des prix...</p>
+    </article>
+</section>
+
+<section class="download">
+    <a href="src/pdf/programmation.pdf" class="download__link">Télécharger la programmation en PDF</a>
+</section>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__menu">
+            <h3 class="footer__menu-title">MENU</h3>
+            <ul class="footer__menu-list">
+                <li class="footer__menu-item"><a href="#">Programmation</a></li>
+                <li class="footer__menu-item"><a href="#">À l'affiche</a></li>
+                <li class="footer__menu-item"><a href="#">Nos engagements</a></li>
+                <li class="footer__menu-item"><a href="#">À propos</a></li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+            <h3 class="footer__contact-title">CONTACT</h3>
+            <p class="footer__contact-address">Château de la Rosemontoise</p>
+            <p class="footer__contact-address">3 Rue de la Planche</p>
+            <p class="footer__contact-address">90200 Giromagny</p>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__social-title">NOUS SUIVRE</h3>
+            <div class="footer__social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+</footer>

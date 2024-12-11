@@ -1,15 +1,23 @@
 .hero {
+    padding: 20px;
     text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to bottom, #003366, #fff);
     color: #fff;
-  }
-  
-  .hero h1 {
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__background {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__title {
     font-size: 2.5em;
-  }
-  
-  .hero p {
+    margin: 20px 0;
+}
+
+.hero__description {
     font-size: 1.2em;
     margin-top: 10px;
-  }
+}
