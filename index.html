@@ -71,9 +71,10 @@
         </div>
     </section>
 
-    <section class="partners">
-        <h2>Nos partenaires</h2>
-        <div class="partner-cards">
+    <section class="carousel" id="carousel">
+
+        <h2 class="carousel__title">Nos partenaires</h2>
+        <div class="carousel__container" aria-live="polite">
             <div class="card" style="background-image: url('/src/img/cards/low-angle-view-glass-building-against-sky.jpg');">
                 <div>
                     <h3>Mairie de Giromagny</h3>
@@ -93,6 +94,14 @@
                 </div>
             </div>
         </div>
+        <div class="carousel__controls">
+            <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+              <img src="src/img/icones/arrow 3.svg" alt="fleche gauche" />
+            </button>
+            <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+              <img src="src/img/icones/Vector.svg" alt="fleche droite" />
+            </button>
+          </div>
     </section>
     
 
