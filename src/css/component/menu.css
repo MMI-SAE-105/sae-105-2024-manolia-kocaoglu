@@ -1,0 +1,37 @@
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 3s;
+ }
+ .menu.open {
+    height: auto;
+    height: calc-size(auto, size);
+ }
+
+ .menu {
+    display: none;
+    }
+    .menu.open {
+    display: block;
+    }
+
+    .menu {
+        visibility: hidden;
+        }
+        .menu.open {
+        visibility: visible;
+        }
+     .menu {
+            opacity: 0;
+            transition: all 3s;
+            }
+            .menu.open {
+            opacity: 1;
+            }
+            .menu {
+                transform: translateX(-100%);
+                transition: all 3s;
+                }
+                .menu.open {
+                transform: none;
+                }
