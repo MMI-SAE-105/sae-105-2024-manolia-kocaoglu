@@ -1,8 +1,23 @@
 :root {
-    --primary-color: #003366;
-    --secondary-color: #0055aa;
-    --background-color: #f9f9f9;
-    --text-color: #333;
-    --text-light-color: #666;
-    --font-family: 'Righteous', sans-serif;
-}
+    --colorcard-green: #00110b;
+    --blue-h2: #064359;
+    --blue-ticket: #4b35ff14;
+    --button-blue: #00393b;
+    --footer-text: #b5b5b5;
+    --grey-color: #b1b1b1;
+    --text-colo: #000000;
+    --ticket-blue-2: #659ab466;
+    --transparent-card: #ffffff00;
+    --white-text: #ffffff;
+
+--body-1: 16px;
+--body-2: 14px;
+--h1: 36px;
+--h2: 24px;
+--h3: 18px;
+--button: 12px;
+--body-3: 14px;
+--samll-text: 11px;
+
+--card-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25);
+  }
