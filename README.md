@@ -3,10 +3,10 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : Kocaoglu
+- PRÉNOM : Manolia
+- GROUPE : B2
+- URL du site : https://polite-choux-9bdf94.netlify.app/ 
 - URL FIGMA :
 
 ## Sujet
