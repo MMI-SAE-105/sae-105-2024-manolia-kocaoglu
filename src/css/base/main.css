@@ -67,39 +67,18 @@ p {
     color: #003366;
   }
   
-  .event-cards, .partner-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
   
-  .card {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    width: 300px;
+  
+  .ecoresponsabilite {
+    font-size: var(--body-1);
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .text__billets {
+    font-size: 1.2em;
     text-align: center;
+    color: #000;
+    margin-top: 100px;
   }
-  
-  .card h3 {
-    color: #003366;
-  }
-  
-  .card button {
-    background-color: #003366;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .card button:hover {
-    background-color: #0055aa;
-  }
-  
- 

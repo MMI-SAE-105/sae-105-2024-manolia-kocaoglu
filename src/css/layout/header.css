@@ -8,6 +8,7 @@
 
 .header__logo img {
     height: 50px;
+    margin-top: 10px;
 }
 
 .header__menu-btn img {
