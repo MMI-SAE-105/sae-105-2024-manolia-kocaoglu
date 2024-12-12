@@ -126,7 +126,7 @@ p {
 }
 
 .btn-download:hover {
-  background-color: #005f80;
+  background-color: var(--button-blue);
 }
 
 
@@ -178,3 +178,45 @@ p {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+.pricing {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.pricing__title {
+  font-size: var(h2);
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.pricing__category {
+  margin-bottom: 1.5rem;
+}
+
+.pricing__subtitle {
+  font-size: var(h3);
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.pricing__item {
+  margin-bottom: 1.5rem;
+}
+
+.pricing__item-title {
+  font-size: var(--body-1);
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.pricing__item-price {
+  font-size: var(--body-2);
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.3rem;
+}
+
