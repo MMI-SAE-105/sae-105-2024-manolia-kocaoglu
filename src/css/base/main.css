@@ -82,3 +82,49 @@ p {
     color: #000;
     margin-top: 100px;
   }
+
+
+.highlights {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.highlights h1 {
+  font-size: 1.8rem;
+  color: #00334e;
+  margin-bottom: 1rem;
+}
+
+.highlights p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.event h2 {
+  font-size: 1.5rem;
+  color: #00334e;
+  margin-bottom: 0.5rem;
+}
+
+.event p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.btn-download {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #0077a3;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-download:hover {
+  background-color: #005f80;
+}

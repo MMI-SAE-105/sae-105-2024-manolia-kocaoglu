@@ -35,3 +35,46 @@
     flex-wrap: wrap;
     margin-top: 20px;
   }
+
+.card {
+    background-color: var(--cardblue);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    overflow: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transform: scale(0.9);
+}
+
+.card__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card__content {
+    padding: 1rem;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    font-family: righteous;
+    font-size: var(--h2);
+    margin-bottom: 0.5rem;
+}
+
+.card__date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+}
+
+.card__description {
+    font-size: 1rem;
+    font-family: var(--body3);
+    line-height: 1.6;
+}

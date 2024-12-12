@@ -6,108 +6,165 @@
     <title>Cinémagny</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script type="module" src="/src/js/page.js"></script>
+    <script type="module" src="src/js/page.js"></script>
 </head>
 <body>
-    <header class="header">
-    <div class="logo">
-        <img src="src/img/icones/Logo.svg" alt="Logo Cinémagny">
+    <header class="header container">
+        <a class="header__logo" href="index.html"> <img src="src/img/icones/Logo.png" alt=""></a>
+        <div
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
     </div>
-    <button class="menu-btn">
-        <img src="src/img/icones/Burger Menu.svg" alt="menu">
-    </button>
-    <nav class="menu">
-        <ul>
-            <li><a href="Accueil">Accueil</a></li>
-            <li><a href="Programmation">Programmation</a></li>
-            <li><a href="À l'affiche">À l'affiche</a></li>
-            <li><a href="Nos engagements">Nos engagements</a></li>
-            <li><a href="À propos">À propos</a></li>
-            <li><a href="Billetterie">Billetterie</a></li>
-            <li><a href="Invités d'Honneur">Invités</a></li>
-            <li><a href="Infos pratiques">Infos pratiques</a></li>
-            <li><a href="Contacts">Contacts</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section class="hero">
-    <h1 class="hero__title">Programmation</h1>
-    <p class="hero__description">Découvrez la diversité de la programmation de Cinémagny...</p>
-</section>
-
-<section class="categories">
-    <div class="categories__item">
-        <img src="src/img/cards/longs-metrages.jpg" alt="Longs métrages" class="categories__image">
-        <h2 class="categories__title">Longs métrages</h2>
-        <p class="categories__details">Jeudi 13 Novembre, 20h<br>Samedi 15 Novembre, 18h</p>
-    </div>
-    <div class="categories__item">
-        <img src="src/img/cards/courts-metrages.jpg" alt="Courts métrages" class="categories__image">
-        <h2 class="categories__title">Courts métrages</h2>
-        <p class="categories__details">Mercredi 12 Novembre, 20h<br>Samedi 15 Novembre, 14h</p>
-    </div>
-    <div class="categories__item">
-        <img src="src/img/cards/documentaires.jpg" alt="Documentaires" class="categories__image">
-        <h2 class="categories__title">Documentaires</h2>
-        <p class="categories__details">Jeudi 13 Novembre, 18h<br>Vendredi 14 Novembre, 14h</p>
-    </div>
-    <div class="categories__item">
-        <img src="src/img/cards/films-animation.jpg" alt="Films d'animation" class="categories__image">
-        <h2 class="categories__title">Films d'animation</h2>
-        <p class="categories__details">Vendredi 14 Novembre, 10h30</p>
-    </div>
-</section>
-
-<section class="extras">
-    <h2 class="extras__title">Autres temps forts de Cinémagny 2025</h2>
-    <article class="extras__item">
-        <h3 class="extras__subtitle">Ateliers et Masterclasses</h3>
-        <p class="extras__description">Tout au long du festival, participez à des ateliers animés par des professionnels du cinéma...</p>
-    </article>
-    <article class="extras__item">
-        <h3 class="extras__subtitle">Rencontres et débats</h3>
-        <p class="extras__description">Chaque jour, nous organisons des rencontres avec les réalisateurs et les équipes des films présentés...</p>
-    </article>
-    <article class="extras__item">
-        <h3 class="extras__subtitle">Projections en plein air</h3>
-        <p class="extras__description">Le samedi soir, venez vivre une expérience unique avec une projection en plein air dans un cadre naturel exceptionnel...</p>
-    </article>
-    <article class="extras__item">
-        <h3 class="extras__subtitle">Cérémonie de clôture</h3>
-        <p class="extras__description">Le dimanche 16 novembre 2025, clôturez en beauté avec la cérémonie de remise des prix...</p>
-    </article>
-</section>
-
-<section class="download">
-    <a href="src/pdf/programmation.pdf" class="download__link">Télécharger la programmation en PDF</a>
-</section>
-
-<footer class="footer">
-    <div class="footer__content">
-        <div class="footer__menu">
-            <h3 class="footer__menu-title">MENU</h3>
-            <ul class="footer__menu-list">
-                <li class="footer__menu-item"><a href="#">Programmation</a></li>
-                <li class="footer__menu-item"><a href="#">À l'affiche</a></li>
-                <li class="footer__menu-item"><a href="#">Nos engagements</a></li>
-                <li class="footer__menu-item"><a href="#">À propos</a></li>
+  
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Le Festival</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Programme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Films</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">InvitÃ©s</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
             </ul>
+            <div class="menu__round"></div>
+          </nav>
+          
         </div>
-        <div class="footer__contact">
-            <h3 class="footer__contact-title">CONTACT</h3>
-            <p class="footer__contact-address">Château de la Rosemontoise</p>
-            <p class="footer__contact-address">3 Rue de la Planche</p>
-            <p class="footer__contact-address">90200 Giromagny</p>
+      </header>
+
+    <section class="hero" style="background-image: url(src/img/header--images/bmw90k27swg91.avif);">
+        <div class="hero__content">
+            <h1 class="hero__title">Programmation</h1> 
         </div>
-        <div class="footer__social">
-            <h3 class="footer__social-title">NOUS SUIVRE</h3>
-            <div class="footer__social-icons">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-            </div>
+    </section>
+    <p class="hero__description container">Découvrez la diversité de la programmation de Cinemagny, où le cinéma indépendant est à l'honneur. Que vous soyez passionné par les longs métrages, fasciné par les courts métrages, ou amateur de documentaires engagés, Cinemagny vous offre un voyage à travers le 7ᵉ art, avec des œuvres innovantes et des talents émergents.</p>
+
+    <div class="card">
+        <div class="card__image">
+            <img src="src/img/cards/3d-movie-director-s-chair.jpg" alt="Une chaise de réalisateur">
+        </div>
+        <div class="card__content">
+            <h2 class="card__title">Longs métrages</h2>
+            <p class="card__date">Jeudi 13 Novembre, 20h</p>
+            <p class="card__date">Samedi 15 Novembre, 18h</p>
+            <p class="card__description">
+                Plongez dans des histoires captivantes et émouvantes portées par des réalisateurs indépendants, venus des quatre coins du monde pour partager leurs visions uniques.
+            </p>
         </div>
     </div>
-</footer>
+
+    <div class="card">
+        <div class="card__image">
+            <img src="src/img/cards/clapperboard-ocean-bottom-underwater-film-about-underwater-world-concept-3d-rendering.jpg" alt="Une chaise de réalisateur">
+        </div>
+        <div class="card__content">
+            <h2 class="card__title">Courts métrages</h2>
+            <p class="card__date">Mercredi 12 Novembre, 20h</p>
+            <p class="card__date">Samedi 15 Novembre, 14h</p>
+            <p class="card__description">
+                De petites perles cinématographiques, qui en quelques minutes vous emmèneront dans des univers aussi variés qu'inspirants.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__image">
+            <img src="src/img/cards/film-reel-clapperboard-positioned-blue-background-creating-web-banner-with-ample-copy-space-right-ideal-movierelated-content.jpg" alt="Une chaise de réalisateur">
+        </div>
+        <div class="card__content">
+            <h2 class="card__title">Documentaires</h2>
+            <p class="card__date">Jeudi 13 Novembre, 14h</p>
+            <p class="card__date">Vendredi 14 Novembre, 16h</p>
+            <p class="card__description">
+                Des œuvres engagées et audacieuses qui mettent en lumière des sujets de société importants, tout en nous invitant à réfléchir sur le monde qui nous entoure.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__image">
+            <img src="src/img/cards/movie-clapperboard-sits-wet-surface-blue-background.jpg" alt="Une chaise de réalisateur">
+        </div>
+        <div class="card__content">
+            <h2 class="card__title">Films d’animation</h2>
+            <p class="card__date">Vendredi 14 Novembre, 10h30</p>
+            <p class="card__date">Dimanche 16 Novembre, 11h</p>
+            <p class="card__description">
+                Laissez-vous émerveiller par des créations animées originales qui repoussent les frontières de l'imaginaire.
+            </p>
+        </div>
+    </div>
+    
+    <section class="highlights">
+        <h1>Autres temps forts de Cinémagny 2025</h1>
+        <p>En plus des projections de films, Cinémagny propose une série d'événements qui enrichiront l'expérience des festivaliers tout au long des cinq jours du festival.</p>
+        
+        <div class="event">
+            <h2>Ateliers et Masterclasses</h2>
+            <p>Participez à des ateliers animés par des professionnels du cinéma et découvrez les coulisses du septième art. Ne manquez pas la masterclass du vendredi après-midi.</p>
+        </div>
+    
+        <div class="event">
+            <h2>Rencontres et débats</h2>
+            <p>Dialoguez avec les réalisateurs et équipes des films grâce à des tables rondes et séances de questions/réponses organisées après certaines projections.</p>
+        </div>
+    
+        <div class="event">
+            <h2>Projections en plein air</h2>
+            <p>Vivez une projection unique sous les étoiles dans un cadre naturel exceptionnel le samedi soir.</p>
+        </div>
+    
+        <div class="event">
+            <h2>Cérémonie de clôture</h2>
+            <p>Assistez à la cérémonie de remise des prix le dimanche 16 novembre 2025 pour clôturer le festival en beauté.</p>
+        </div>
+    
+        <a href="#" class="btn-download">Télécharger la programmation en PDF</a>
+    </section>
+    
+
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__menu">
+                    <h3 class="footer__menu-title">MENU</h3>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="#">Programmation</a></li>
+                        <li class="footer__menu-item"><a href="#">À l'affiche</a></li>
+                        <li class="footer__menu-item"><a href="#">Nos engagements</a></li>
+                        <li class="footer__menu-item"><a href="#">À propos</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3 class="footer__contact-title">CONTACT</h3>
+                    <p class="footer__contact-detail">Château de la Rosemontoise</p>
+                    <p class="footer__contact-detail">3 Rue de la Planche</p>
+                    <p class="footer__contact-detail">90200 Giromagny</p>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__social-title">NOUS SUIVRE</h3>
+                    <div class="footer__social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
