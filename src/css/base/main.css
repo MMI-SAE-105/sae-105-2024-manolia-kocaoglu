@@ -35,13 +35,14 @@ p {
   .button__infos {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #00393b;
     color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 10px auto 50px;
     width: 150px;
   }
 .btninfo{
@@ -181,7 +182,6 @@ p {
 
 .pricing {
   padding: 2rem 1rem;
-  background-color: #f9f9f9;
 }
 
 .pricing__title {
@@ -211,6 +211,7 @@ p {
   font-weight: bold;
   color: #333;
   margin-bottom: 0.5rem;
+  margin-top: 50px;
 }
 
 .pricing__item-price {
@@ -220,3 +221,22 @@ p {
   margin-bottom: 0.3rem;
 }
 
+.option__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00334e;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.option__description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
