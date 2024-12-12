@@ -1,18 +1,13 @@
-.header {
+.header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: #fff;
     position: relative;
-    z-index: 1000;   
+    z-index: 20;
 }
 
 
 .header__logo img {
     height: 50px;
-    filter: invert(1);
 }
 
 .header__menu-btn img {

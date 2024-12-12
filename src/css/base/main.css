@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   color: #000000;
+  text-size-adjust: 16px;
 }
 
 h1, h2, h3 {

@@ -9,27 +9,43 @@
     <script type="module" src="src/js/page.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo">
-            <img src="src/img/icones/Logo.svg" alt="Logo Cinémagny">
-        </div>
-        <button class="header__menu-btn">
-            <img src="src/img/icones/Burger Menu.svg" alt="menu">
-        </button>
-        <nav class="header__menu menu">
-            <ul class="header__menu-list">
-                <li class="header__menu-item"><a href="Accueil">Accueil</a></li>
-                <li class="header__menu-item"><a href="Programmation">Programmation</a></li>
-                <li class="header__menu-item"><a href="À l'affiche">À l'affiche</a></li>
-                <li class="header__menu-item"><a href="Nos engagements">Nos engagements</a></li>
-                <li class="header__menu-item"><a href="À propos">À propos</a></li>
-                <li class="header__menu-item"><a href="Billetterie">Billetterie</a></li>
-                <li class="header__menu-item"><a href="Invités d'Honneur">Invités</a></li>
-                <li class="header__menu-item"><a href="Infos pratiques">Infos pratiques</a></li>
-                <li class="header__menu-item"><a href="Contacts">Contacts</a></li>
+    <header class="header container">
+        <a class="header__logo" href="index.html"> <img src="src/img/icones/Logo.png" alt=""></a>
+        <div
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
+    </div>
+  
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Le Festival</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Programme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Films</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">InvitÃ©s</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+            <div class="menu__round"></div>
+          </nav>
+          
+        </div>
+      </header>
 
     <section class="hero" style="background-image: url(src/img/header--images/bmw90k27swg91.avif);">
         <div class="hero__content">
