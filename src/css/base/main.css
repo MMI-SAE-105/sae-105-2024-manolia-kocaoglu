@@ -19,7 +19,43 @@ p {
     font-family: Lato, sans-serif;
     font-weight: 200;
   }
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
   
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .button__infos {
+    display: flex;
+    justify-content: center;
+    background-color: #00393b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+  }
+.btninfo{
+  display: flex;
+  justify-content: center;
+}
+  .plus {
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
   .events, .partners {
     padding: 20px;
     background-color: #f9f9f9;

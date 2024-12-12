@@ -6,7 +6,7 @@
     <title>Cinémagny</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script type="module" src="/src/js/page.js"></script>
+    <script type="module" src="src/js/page.js"></script>
 </head>
 <body>
     <header class="header">
@@ -16,7 +16,7 @@
         <button class="header__menu-btn">
             <img src="src/img/icones/Burger Menu.svg" alt="menu">
         </button>
-        <nav class="header__menu">
+        <nav class="header__menu menu">
             <ul class="header__menu-list">
                 <li class="header__menu-item"><a href="Accueil">Accueil</a></li>
                 <li class="header__menu-item"><a href="Programmation">Programmation</a></li>
@@ -31,21 +31,18 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero__background" style="background-image: url(src/img/header--images/bmw90k27swg91.avif);">
-            <img src="" alt="Salle de cinéma">
-        </div>
+    <section class="hero" style="background-image: url(src/img/header--images/bmw90k27swg91.avif);">
         <div class="hero__content">
             <h1 class="hero__title">Bienvenue à Cinémagny</h1> 
         </div>
-        <p class="hero__description">Cinemagny est un festival unique dédié à la célébration du 7ᵉ art à travers le prisme de l’écologie et de l’innovation. Situé à Giromagny, entre montagnes et forêts, le festival vous invite à plonger dans un monde cinématographique riche et diversifié, où films indépendants, documentaires et animations se rencontrent pour éveiller vos sens et vos consciences.
-            Du 12 au 16 novembre 2025, Cinemagny mettra en lumière les talents émergents du cinéma indépendant, tout en rendant hommage aux figures emblématiques du cinéma engagé. Des avant-premières exclusives, des rétrospectives, et des rencontres avec des réalisateurs passionnés feront de cet événement un moment incontournable pour les cinéphiles, les professionnels de l’industrie, et le grand public.</p>
     </section>
+    <p class="hero__description container">Cinemagny est un festival unique dédié à la célébration du 7ᵉ art à travers le prisme de l’écologie et de l’innovation. Situé à Giromagny, entre montagnes et forêts, le festival vous invite à plonger dans un monde cinématographique riche et diversifié, où films indépendants, documentaires et animations se rencontrent pour éveiller vos sens et vos consciences.
+        Du 12 au 16 novembre 2025, Cinemagny mettra en lumière les talents émergents du cinéma indépendant, tout en rendant hommage aux figures emblématiques du cinéma engagé. Des avant-premières exclusives, des rétrospectives, et des rencontres avec des réalisateurs passionnés feront de cet événement un moment incontournable pour les cinéphiles, les professionnels de l’industrie, et le grand public.</p>
 
     <section class="carousel carousel--events">
         <h2 class="carousel__title">Les événements</h2>
         <div class="carousel__container" aria-live="polite">
-            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/stage-lights-backdrop-with-deep-blue-tones-creating-cool-immersive-performance-environment.avif');">
+            <div class="carousel__card" style="background-image: url('/src/img/carousel--accueil/carousel.webp');">
                 <div class="carousel__content">
                     <h3 class="carousel__card-title">Avant-premières exclusives</h3>
                     <p class="carousel__card-description">Découvrez des films inédits réalisés par de nouveaux talents du cinéma indépendant.</p>
@@ -79,17 +76,22 @@
             </button>
         </div>
     </section>
+    <a class="btninfo" href="">
+    <div class="button__infos">
+        <p class="plus">En savoir plus</p>
+    </div>
+</a>
 
     <section class="carousel carousel--partners">
         <h2 class="carousel__title">Nos partenaires</h2>
-        <div class="carousel__container" aria-live="polite">
-            <div class="carousel__card" style="background-image: url('/src/img/cards/low-angle-view-glass-building-against-sky.jpg');">
+        <div class="carousel__container carousel__container2" aria-live="polite">
+            <div class="carousel__card carousel__card2" style="background-image: url('/src/img/cards/low-angle-view-glass-building-against-sky.jpg');">
                 <div class="carousel__content">
                     <h3 class="carousel__card-title">Mairie de Giromagny</h3>
                     <p class="carousel__card-description">La mairie de Gyromagny soutient activement la vie locale en promouvant culture, écologie et initiatives citoyennes, tout en valorisant le patrimoine de la commune.</p>
                 </div>
             </div>
-            <div class="carousel__card" style="background-image: url('/src/img/cards/19505.jpg');">
+            <div class="carousel__card carousel__card2" style="background-image: url('/src/img/cards/19505.jpg');">
                 <div class="carousel__content">
                     <h3 class="carousel__card-title">Le cinéma Pathé</h3>
                     <p class="carousel__card-description">Le cinéma Pathé offre une expérience immersive, alliant technologies modernes et programmation variée pour satisfaire tous les publics.</p>
@@ -97,10 +99,10 @@
             </div>
         </div>
         <div class="carousel__controls">
-            <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+            <button class="carousel__button carousel__button--prev carousel__button--prev2" aria-label="Défiler vers la gauche">
               <img src="src/img/icones/arrow 3.svg" alt="fleche gauche" />
             </button>
-            <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+            <button class="carousel__button carousel__button--next carousel__button--next2" aria-label="Défiler vers la droite">
               <img src="src/img/icones/Vector.svg" alt="fleche droite" />
             </button>
         </div>

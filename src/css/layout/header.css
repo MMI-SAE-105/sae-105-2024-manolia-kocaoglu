@@ -3,17 +3,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #003366;
+    background-color: transparent;
     color: #fff;
+    position: relative;
+    z-index: 1000;   
 }
+
 
 .header__logo img {
     height: 50px;
+    filter: invert(1);
 }
 
 .header__menu-btn img {
     width: 30px;
     cursor: pointer;
+    filter: invert(1);
 }
 
 .header__menu {
