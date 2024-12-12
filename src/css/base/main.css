@@ -128,3 +128,53 @@ p {
 .btn-download:hover {
   background-color: #005f80;
 }
+
+
+.value__title {
+    font-size: var(h3);
+    font-weight: bold;
+    color: #00334e;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.value__description {
+    font-size: var(--body-1);
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.value__details {
+    font-size: var(small-text);
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.value__explain {
+    font-size: var(--body-1);
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.value__call {
+    font-size: var(--body-1);
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

@@ -38,3 +38,9 @@
     color: #000;
     margin-top: 20rem;
 }
+
+.hero__description--engagements {
+    font-size: var(--body-1);
+    color: #000;
+    margin-top: 20rem;
+}

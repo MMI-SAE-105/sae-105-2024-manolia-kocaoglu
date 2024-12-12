@@ -28,7 +28,6 @@ if (carousel2) {
       carousel2.scrollBy({ left: -scrollAmount2, behavior: "smooth" });;
     });
   
-    // Scroll au clic sur le bouton suivant
     nextButton2.addEventListener("click", () => {
       carousel2.scrollBy({ left: +scrollAmount2, behavior: "smooth" });;
     });
