@@ -12,3 +12,4 @@
 @import 'utils/variable.css';
 @import 'utils/hero.css';
 @import 'vendors/normalize.css';
+@import'component/component.css'
