@@ -116,10 +116,11 @@ p {
 }
 
 .btn-download {
-  display: inline-block;
-  margin-top: 1.5rem;
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto;
   padding: 0.7rem 1.5rem;
-  background-color: #0077a3;
+  background-color: #00393b;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -222,7 +223,8 @@ p {
 }
 
 .option__title {
-  font-size: 1.5rem;
+  font-size: var(--h2);
+  font-family: righteous;
   font-weight: bold;
   color: #00334e;
   margin-bottom: 50px;
