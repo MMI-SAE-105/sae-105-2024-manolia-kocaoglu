@@ -9,6 +9,6 @@
 @import 'layout/carousel.css';
 @import 'layout/footer.css';
 @import 'layout/main.css';
-@import 'utils/variables.css';
+@import 'utils/variable.css';
 @import 'utils/hero.css';
 @import 'vendors/normalize.css';
