@@ -6,7 +6,7 @@
 - NOM : Kocaoglu
 - PRÉNOM : Manolia
 - GROUPE : B2
-- URL du site : https://polite-choux-9bdf94.netlify.app/ 
+- URL du site : https://endearing-stardust-ec6cc5.netlify.app/ http://sae105.manolia-kocaoglu.fr/
 - URL FIGMA :
 
 ## Sujet
