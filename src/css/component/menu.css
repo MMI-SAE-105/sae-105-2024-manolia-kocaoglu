@@ -7,9 +7,9 @@
   display: flex;
   position: fixed;
   inset: 0;
-  background-color: #064359;
+  background-color: var(--blue-h2);
   font-size: var(--h2);
-  font-family: righteous; 
+  font-family: righteous;
   transition: all 0.4s ease-in-out;
 }
 .menu[aria-hidden="false"] {
@@ -20,7 +20,7 @@
 .menu__list {
   list-style: none;
   margin-top: 25vh;
-  width: 100%;
+  width: 85%;
   
 }
 

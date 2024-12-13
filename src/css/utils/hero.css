@@ -1,6 +1,6 @@
 .hero {
     padding: 5rem 20px;
-    width: 100%;
+    width: 90.5%;
     text-align: start;
     color: #fff;
     background-size: cover;
@@ -39,7 +39,7 @@
     margin-top: 20rem;
 }
 
-.hero__description--engagements {
+.hero__description engagements {
     font-size: var(--body-1);
     color: #000;
     margin-top: 20rem;
